@@ -6,7 +6,7 @@
       "name": "DeepSeek (облако)",
       "type": "cloud",
       "base_url": "https://api.deepseek.com",
-      "api_key": "sk-02ccb5152feb427a99afdd7e70bfa08b",
+      "api_key": "твой ключ",
       "model": "deepseek-chat",
       "max_tokens": 500,
       "temperature": 0.7,
