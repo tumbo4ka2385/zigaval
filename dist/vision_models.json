@@ -1,0 +1,44 @@
+{
+  "active_id": "ec9ff730-daca-4b36-bde9-af566844ad9d",
+  "profiles": [
+    {
+      "id": "ec9ff730-daca-4b36-bde9-af566844ad9d",
+      "name": "Moondream (локально, .gguf)",
+      "type": "gguf",
+      "model_path": "models/moondream2-text-model-f16.gguf",
+      "mmproj_path": "",
+      "base_url": "",
+      "api_key": "",
+      "model": "",
+      "prompt": "Подробно опиши что изображено на этом скриншоте на русском языке.",
+      "n_ctx": 2048,
+      "n_gpu_layers": -1
+    },
+    {
+      "id": "279a4faf-91b4-433c-a28d-732833f3e2a9",
+      "name": "LM Studio (vision-модель)",
+      "type": "lmstudio",
+      "model_path": "",
+      "mmproj_path": "",
+      "base_url": "http://127.0.0.1:1234",
+      "api_key": "",
+      "model": "llava-llama-3-8b-v1_1",
+      "prompt": "Подробно опиши что изображено на этом скриншоте на русском языке.",
+      "n_ctx": 2048,
+      "n_gpu_layers": -1
+    },
+    {
+      "id": "12eb7c94-5ad8-41c5-af93-88cae83e164f",
+      "name": "Moondream Cloud (облако)",
+      "type": "cloud",
+      "model_path": "",
+      "mmproj_path": "",
+      "base_url": "https://api.moondream.ai/v1",
+      "api_key": "",
+      "model": "moondream-2b",
+      "prompt": "Подробно опиши что изображено на этом скриншоте на русском языке.",
+      "n_ctx": 2048,
+      "n_gpu_layers": -1
+    }
+  ]
+}

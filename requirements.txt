@@ -1,0 +1,8 @@
+faster-whisper
+pyaudio
+numpy
+requests
+torch
+soundfile
+sounddevice
+Pillow

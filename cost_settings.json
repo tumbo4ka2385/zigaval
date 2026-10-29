@@ -1,0 +1,38 @@
+{
+  "starting_balance_cny": 32.95,
+  "display_currency": "RUB",
+  "rates_per_cny": {
+    "CNY": 1.0,
+    "RUB": 10.78,
+    "USD": 0.1477,
+    "EUR": 0.1287
+  },
+  "prices_cny_per_1m": {
+    "deepseek-v4-flash": {
+      "input": 1.0,
+      "output": 2.0
+    },
+    "deepseek-chat": {
+      "input": 1.0,
+      "output": 2.0
+    },
+    "deepseek-reasoner": {
+      "input": 1.0,
+      "output": 2.0
+    },
+    "deepseek-v4-pro": {
+      "input": 3.0,
+      "output": 6.0
+    }
+  },
+  "default_price_cny_per_1m": {
+    "input": 1.0,
+    "output": 2.0
+  },
+  "lifetime_usage": {
+    "deepseek-chat": {
+      "input": 5512,
+      "output": 1240
+    }
+  }
+}

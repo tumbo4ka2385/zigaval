@@ -1,0 +1,38 @@
+{
+  "active_id": "9500e667-f8d9-449d-b7d8-a1d5399a761a",
+  "profiles": [
+    {
+      "id": "9500e667-f8d9-449d-b7d8-a1d5399a761a",
+      "name": "DeepSeek (облако)",
+      "type": "cloud",
+      "base_url": "https://api.deepseek.com",
+      "api_key": "sk-02ccb5152feb427a99afdd7e70bfa08b",
+      "model": "deepseek-chat",
+      "max_tokens": 500,
+      "temperature": 0.7,
+      "system_prompt": "Ты умный голосовой ассистент. Отвечай кратко и по делу."
+    },
+    {
+      "id": "19681cc5-1feb-4a7c-a619-5a9d683180b0",
+      "name": "LM Studio (локально)",
+      "type": "lmstudio",
+      "base_url": "http://127.0.0.1:1234",
+      "api_key": "",
+      "model": "local-model",
+      "max_tokens": 500,
+      "temperature": 0.7,
+      "system_prompt": "Ты умный голосовой ассистент. Отвечай кратко и по делу."
+    },
+    {
+      "id": "a42f24eb-bb20-4d86-bdb6-44fa5451bfc2",
+      "name": "Ollama (локально)",
+      "type": "ollama",
+      "base_url": "http://localhost:11434",
+      "api_key": "",
+      "model": "llama3",
+      "max_tokens": 500,
+      "temperature": 0.7,
+      "system_prompt": "Ты умный голосовой ассистент. Отвечай кратко и по делу."
+    }
+  ]
+}
